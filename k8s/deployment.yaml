@@ -53,7 +53,7 @@ spec:
               type: RuntimeDefault
             capabilities:
               drop:
-                - all
+                - ALL
 
 ---
 apiVersion: v1
