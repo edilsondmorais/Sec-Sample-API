@@ -43,21 +43,21 @@ On your Repository, set the following secrets:
 
 ## Challenges
 
-    - Deploy the aplication with CI/CD
+- Deploy the aplication with CI/CD
 
-    - Scan it with Horussec Locally
-    - Include Horusec on CI/CD
-    - Fix the vulenrabilities or create expections, so you deployment can move forward.
+- Scan it with Horussec Locally
+- Include Horusec on CI/CD
+- Fix the vulenrabilities or create expections, so you deployment can move forward.
 
-    - Scan it with Trivy Locally
-    - Include Trivy on CI/CD
-        - For Images
-        - For IAC
-        - For App imports
-    - Fix the vulenrabilities or create expections, so you deployment can move forward.
+- Scan it with Trivy Locally
+- Include Trivy on CI/CD
+    - For Images
+    - For IAC
+    - For App imports
+- Fix the vulenrabilities or create expections, so you deployment can move forward.
 
-    - Scan it with ZAP Locally
-    - Include ZAP on CI/CD
-    - Fix the vulenrabilities or create expections, so you deployment can move forward.
+- Scan it with ZAP Locally
+- Include ZAP on CI/CD
+- Fix the vulenrabilities or create expections, so you deployment can move forward.
 
 * Hint, This repository has other branchs with the tools aready in place, you if need, check them.
