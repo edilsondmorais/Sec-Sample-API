@@ -23,13 +23,12 @@ app.get('/secret/:msg', (req, res) => {
     let msg = req.params.msg;
     if (msg == text) {
         res.statusCode = 200;
-        res.json({ "txt-input": msg, "hostname": os.hostname() });
         return res.send('');
     } else {
         res.statusCode = 400;
         return res.send('');
     }
-
+    //res.json({ "txt-input": msg, "hostname": os.hostname() });
 });
 
 app.get('/fahrenheit/:value/celsius', (req, res) => {
