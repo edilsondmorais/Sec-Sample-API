@@ -7,3 +7,5 @@
 90022	IGNORE	(Application Error Disclosure)
 100000	IGNORE	(A Server Error response code was returned by the server)
 100001	IGNORE	(Unexpected Content-Type was returned)
+30002	IGNORE	(Format String Error)
+40018   IGNORE	(SQL Injection)
